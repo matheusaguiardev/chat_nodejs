@@ -11,6 +11,7 @@ var server = app.listen(porta, function(){
 var io = socketIO.listen(server);
 
 app.set('io', io); // variavel global no objeto do express
+app.set('global_port', porta);
 
 /* criar a conexão por websocket */
 io.on('connection', function(socket){
