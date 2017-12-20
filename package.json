@@ -4,7 +4,7 @@
   "description": "Chat mult_chat",
   "main": "app.js",
   "scripts": {
-    "start": "node indexgit ad.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matheus Aguiar",
